@@ -2,14 +2,14 @@
 
 //Task 1
 const book = {
-  Title: "JavaScript: The Definitive Guide",
-  Author: "David Flanagan",
-  PublishedYear: 2020,
-  Genre: "Programming",
+  title: "JavaScript: The Definitive Guide",
+  author: "David Flanagan",
+  publishedYear: 2020,
+  genre: "Programming",
 };
 //Task 2
-console.log(book.Title);
-console.log(book["PublishedYear"]);
+console.log(book.title);
+console.log(book["publishedYear"]);
 
 //Part 2
 
@@ -19,6 +19,11 @@ book.pageCount = [1096];
 //Task 4
 book.ISBN = "978-1491952023";
 //Task 5
-book.PublishedYear = 2021;
+book.publishedYear = 2021;
 
 console.log(book);
+
+//Part 3
+
+// Task 6
+book.author = ["David Flanagan", "Another Author"];
