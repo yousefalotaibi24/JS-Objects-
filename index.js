@@ -15,7 +15,7 @@ console.log(book["publishedYear"]);
 
 //Task 3
 
-book.pageCount = [1096];
+book.pageCount = 1096;
 //Task 4
 book.ISBN = "978-1491952023";
 //Task 5
