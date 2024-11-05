@@ -26,7 +26,7 @@ book.publishedYear = 2021;
 // Task 6
 book.author = ["David Flanagan", "Another Author"];
 
-//Task 7
+///Task 7
 
 book.reviwes = {
   reviwer: "book Critic",
