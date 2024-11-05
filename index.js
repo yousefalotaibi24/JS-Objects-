@@ -28,8 +28,10 @@ book.author = ["David Flanagan", "Another Author"];
 
 ///Task 7
 
-book.reviwes = {
-  reviwer: "book Critic",
-  Comment: "A comprehensive guide to JavaScript",
-};
+book.reviwes = [
+  {
+    reviwer: "book Critic",
+    Comment: "A comprehensive guide to JavaScript",
+  },
+];
 console.log(book);
