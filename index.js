@@ -21,9 +21,15 @@ book.ISBN = "978-1491952023";
 //Task 5
 book.publishedYear = 2021;
 
-console.log(book);
-
 //Part 3
 
 // Task 6
 book.author = ["David Flanagan", "Another Author"];
+
+//Task 7
+
+book.reviwes = {
+  reviwer: "book Critic",
+  Comment: "A comprehensive guide to JavaScript",
+};
+console.log(book);
